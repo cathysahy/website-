@@ -1,4 +1,4 @@
-/* ================== GLOBAL ================== */
+
 body {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
@@ -36,9 +36,9 @@ form button,
   font-weight: 500;
 }
 
-/* ================== HEADER (HERO + NAV) ================== */
+
 #hero {
-  background-image: url('ampefy-panoramique.jpg'); /* remplace par ton image */
+  background-image: url('image/panoramique\ d\'ampefy.jpg'); 
   background-size: cover;
   background-position: center;
   padding: 80px 20px;
@@ -55,8 +55,9 @@ form button,
 }
 
 .logo-hero {
-  width: 80px;
-  margin-bottom: 20px;
+  max-width: 250px;
+  width: 100%;
+  height: auto;
 }
 
 #hero h1 {
@@ -120,16 +121,18 @@ nav a {
 /* ================== SECTION GALERIE ================== */
 #galerie {
   background-color: #e3f2fd;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  max-width: 600px;
+  margin: auto;
 }
 
 .gallery img {
   width: 100%;
-  max-width: 300px;
-  margin: 10px;
-  border-radius: 8px;
+  height: 200 px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 /* ================== SECTION CARTE ================== */
@@ -370,8 +373,4 @@ footer {
   color: white;
   padding: 20px;
   text-align: center;
-}
-
-p,#accroche{
-  text-align: justify;
 }

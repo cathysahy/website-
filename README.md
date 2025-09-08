@@ -1,23 +1,23 @@
-# 🚗 NyCar Madagascar – Location de voitures en ligne
+# ✈️ Caprina Travel
+**Caprina Travel** est un site vitrine dédié à une agence familiale malgache spécialisée dans les circuits d’un jour à Ampefy, Madagascar.  
+Ce projet met en valeur des paysages volcaniques, des expériences locales authentiques et une réservation simple et intuitive.
 
-**NyCar Madagascar** est un site web de réservation de véhicules à Madagascar.  
-Il permet aux particuliers et professionnels de louer facilement une voiture selon leurs besoins : citadine, berline, 4x4 ou minibus Starex.
 
-## 🌍 Présentation
-Ce projet propose une interface claire et responsive pour découvrir les véhicules disponibles, consulter les tarifs, et réserver en ligne.  
-Il s’adresse aux voyageurs, aux entreprises et aux résidents souhaitant un service fiable, rapide et flexible.
+##  À propos
+Caprina Travel propose une immersion sensorielle au cœur de Madagascar : geysers, cascade Lily, lac Itasy…  
+Chaque circuit est conçu avec soin, et le tarif dépend du véhicule choisi (berline, 4x4 ou minibus).  
+L’interface permet aux visiteurs de découvrir les options, réserver leur aventure, et choisir des services comme le déjeuner local.
 
-## 🚀 Fonctionnalités
+##  Fonctionnalités
 
-- 🛻 Présentation des véhicules avec capacité et usage recommandé
-- 📋 Formulaire de réservation interactif (type de voiture, dates, destination)
-- 💰 Estimation dynamique du tarif selon les choix
-- 📱 Design responsive (PC, tablette, mobile)
-- 🧩 Balises SEO et Open Graph intégrées
-- 📞 Informations de contact et données structurées (schema.org)
+-  Présentation des circuits et destinations
+- Tarifs selon véhicule + option déjeuner
+- Formulaire de réservation interactif
+- Témoignages clients + notation par étoiles
+- Design responsive (PC, tablette, mobile)
+- Identité visuelle élégante et chaleureuse
 
 ## 🛠️ Installation
-
-1. Clonez le projet ou téléchargez les fichiers :
+1. Téléchargez ou clonez le projet :
    ```bash
-   git clone https://github.com/cathy-sahy/nycar-madagascar.git
+   git clone https://github.com/cathy_sahy/caprina-travel.git
