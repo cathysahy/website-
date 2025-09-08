@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #ff6b6b;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.vehicles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.vehicle-card {
+    background: #fff;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: #ff6b6b;
+    margin-bottom: 20px;
+}
+
+.vehicle-card img {
+    width: 200px;
+    border-radius: 10px;
+    height: auto;
+}
+
+.vehicle-card h3 {
+    margin: 10px 0 5px;
+    
+}
+
+.vehicle-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+f/* Section SEO NyCar */
+section h2 {
+    color: #004080;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #004080;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+section h3 {
+    color: #0073e6;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+/* Pour harmoniser la section SEO avec les cartes */
+section {
+    background-color: #fff;
+    padding: 25px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    margin-bottom: 50px;
+}
+form {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    width: 400px;
+    margin: 20px auto;
+}
+
+form h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #ff6b6b;
+    color: white;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #ff4c4c;
+}
+
+#tarif {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ff6b6b;
+    text-align: center;
+}
+
